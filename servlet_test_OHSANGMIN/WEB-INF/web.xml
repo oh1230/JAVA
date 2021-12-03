@@ -1,0 +1,19 @@
+<web-app>
+	<servlet>
+		<servlet-name>ListServletMapping</servlet-name>
+		<servlet-class>servlet.ListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListServletMapping</servlet-name>
+		<url-pattern>/list</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>practice1Mapping</servlet-name>
+		<servlet-class>servlet.Practice1Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>practice1Mapping</servlet-name>
+		<url-pattern>/practice1</url-pattern>
+	</servlet-mapping>
+</web-app>
